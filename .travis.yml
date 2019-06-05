@@ -1,7 +1,7 @@
 jobs:
   include:
     - stage: Tests
-      scripts: echo "`date` Unit Tests1" && sleep 5
+      script: echo "`date` Unit Tests1" && sleep 5
       name: "Unit Tests"
     - script: echo "`date` Integration-tests" && sleep 6
       name: "Integration Tests"
